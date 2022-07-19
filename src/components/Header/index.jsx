@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Image1 } from "../../assets";
 import { Link } from "react-router-dom";
 
 export default function Header() {

@@ -1,13 +1,5 @@
 import { React, useRef } from "react";
-import {
-  Image1,
-  Image2,
-  Image3,
-  Image4,
-  Image5,
-  Image6,
-  Sound,
-} from "../../assets";
+import { Image1, Image2, Image3, Image4, Image5, Image6 } from "../../assets";
 import HTMLFlipBook from "react-pageflip";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
