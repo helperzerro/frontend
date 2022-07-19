@@ -29,7 +29,7 @@ const App = () => {
           size={50}
           color="white"
           onClick={scrollToTop}
-          className="rounded-full bg-red-400 fixed bottom-28 right-6 pb-1"
+          className="rounded-full h-16 w-16 bg-red-400 fixed bottom-28 right-6 pb-1"
         />
       )}
     </>

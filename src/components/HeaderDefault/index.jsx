@@ -18,10 +18,10 @@ export default function HeaderDefault() {
                 <a href="/">Home</a>
               </li>
               <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
-                <a href="/menu">Menu</a>
+                <Link to={"/menu"}>Menu</Link>
               </li>
               <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
-                <a href="/about">About</a>
+                <Link to={"/about"}>About</Link>
               </li>
               <li className="my-8 text-2xl hover:text-amber-800 text-dark font-semibold ">
                 <Link to="/contact">Contact</Link>

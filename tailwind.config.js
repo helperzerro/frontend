@@ -6,6 +6,10 @@ module.exports = {
       width: {
         300: "300px",
       },
+      colors: {
+        greenz: "#008000",
+        greenwa: "#25D366",
+      },
     },
   },
   plugins: [],

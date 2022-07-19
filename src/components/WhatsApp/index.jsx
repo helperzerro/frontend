@@ -5,11 +5,9 @@ import { BsWhatsapp } from "react-icons/bs";
 export default function WhatsApp() {
   return (
     <ReactWhatsapp number="62-813-8042-6117" message="Hallo Aice Ice Cream">
-      <BsWhatsapp
-        size={50}
-        color="#25D366"
-        className="rounded-full overflow-hidden text-white fixed bottom-10 right-6 cursor-pointer"
-      ></BsWhatsapp>
+      <div className="bg-greenwa w-16 h-16 rounded-full flex justify-center items-center overflow-hidden text-white fixed bottom-10 right-6 cursor-pointer">
+        <BsWhatsapp size={40} color="#fff"></BsWhatsapp>
+      </div>
     </ReactWhatsapp>
   );
 }

@@ -5,7 +5,8 @@ import ScrollToTop from "./ScrollToTop";
 import WhatsApp from "./WhatsApp";
 import HeaderDefault from "./HeaderDefault";
 import HeaderNav from "./HeaderNav";
-
+import ContentContext from "./ContentContact";
+import FooterContact from "./FooterContact";
 export {
   FlipBook,
   Header,
@@ -14,4 +15,6 @@ export {
   WhatsApp,
   HeaderDefault,
   HeaderNav,
+  ContentContext,
+  FooterContact,
 };
