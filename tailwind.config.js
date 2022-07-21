@@ -10,6 +10,9 @@ module.exports = {
         greenz: "#008000",
         greenwa: "#25D366",
       },
+      height: {
+        100: "92vh",
+      },
     },
   },
   plugins: [],

@@ -7,6 +7,10 @@ import HeaderDefault from "./HeaderDefault";
 import HeaderNav from "./HeaderNav";
 import ContentContext from "./ContentContact";
 import FooterContact from "./FooterContact";
+import AboutContent from "./AboutContent";
+import ImageTopdf from "./ImageTopdf";
+import ListProduct from "./ListProduct";
+
 export {
   FlipBook,
   Header,
@@ -17,4 +21,7 @@ export {
   HeaderNav,
   ContentContext,
   FooterContact,
+  AboutContent,
+  ImageTopdf,
+  ListProduct,
 };

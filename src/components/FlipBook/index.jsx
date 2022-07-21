@@ -7,23 +7,23 @@ export default function FlipBook() {
   const book = useRef();
   return (
     <>
-      <div className="flex items-center justify-center bg-violet-700">
+      <div className="w-full flex items-center justify-center bg-violet-700 h-100">
         <IoIosArrowBack
           size={120}
           color="white"
           onClick={() => book.current.pageFlip().flipPrev()}
-          className="hover:bg-gray-300 translate-x-10 z-10 rounded-xl hidden md:block"
+          className="hover:bg-gray-300 translate-x-8 z-10 rounded-xl hidden md:block"
         />
 
         <HTMLFlipBook
           ref={book}
-          width={400}
-          height={565}
+          width={500}
+          height={707}
           autoSize={false}
           size="fixed"
           drawShadow={false}
           mobileScrollSupport={true}
-          className="w-1/2 my-12"
+          className="w-1/2"
         >
           <div className="demoPage">
             <img className="img-cover" src={Image1} alt="Image1" />
@@ -50,7 +50,7 @@ export default function FlipBook() {
           size={120}
           color="white"
           onClick={() => book.current.pageFlip().flipNext()}
-          className="hover:bg-gray-300 -translate-x-10 z-10 rounded-xl hidden md:block"
+          className="hover:bg-gray-300 -translate-x-8 z-10 rounded-xl hidden md:block"
         />
       </div>
     </>
