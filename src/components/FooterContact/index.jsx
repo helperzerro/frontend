@@ -18,7 +18,7 @@ export default function FooterContact() {
             md:justify-start
           "
             >
-              <img src={logo} className="w-28 mr-4" />
+              <img src={logo} className="w-28 mr-4" alt="imagez" />
             </h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero

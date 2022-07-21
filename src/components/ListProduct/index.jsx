@@ -1,15 +1,12 @@
 import React from "react";
+import { Image1, Image2, Image3, Image4 } from "../../assets";
 
 export default function ListProduct() {
   return (
     <div className="grid gap-8 bg-blue-200 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <img
-            class="rounded-t-lg"
-            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-            alt=""
-          />
+          <img class="rounded-t-lg" src={Image1} alt="Imagex" />
 
           <div class="p-6">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -22,11 +19,7 @@ export default function ListProduct() {
 
       <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <img
-            class="rounded-t-lg"
-            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-            alt="Image"
-          />
+          <img class="rounded-t-lg" src={Image2} alt="Image2" />
 
           <div class="p-6">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -39,11 +32,7 @@ export default function ListProduct() {
 
       <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <img
-            class="rounded-t-lg"
-            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-            alt="Image"
-          />
+          <img class="rounded-t-lg" src={Image3} alt="Image3" />
 
           <div class="p-6">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -56,11 +45,7 @@ export default function ListProduct() {
 
       <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <img
-            class="rounded-t-lg"
-            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-            alt="Image"
-          />
+          <img class="rounded-t-lg" src={Image4} alt="Image4" />
 
           <div class="p-6">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -73,11 +58,7 @@ export default function ListProduct() {
 
       <div class="flex justify-center">
         <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <img
-            class="rounded-t-lg"
-            src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-            alt="Image"
-          />
+          <img class="rounded-t-lg" src={Image4} alt="Image4" />
 
           <div class="p-6">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
