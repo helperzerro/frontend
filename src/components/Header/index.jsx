@@ -39,13 +39,13 @@ export default function Header() {
             <div className="ml-16 mt-16">
               <ul className="">
                 <li className="my-8 text-2xl font-semibold hover:text-red-400">
-                  <a href="/">Home</a>
+                  <Link to={"/"}>HOME</Link>
                 </li>
                 <li className="my-8 text-2xl font-semibold hover:text-red-400">
-                  <Link to={"/about"}>About</Link>
+                  <Link to={"/about"}>ABOUT</Link>
                 </li>
                 <li className="my-8 text-2xl font-semibold hover:text-red-400">
-                  <Link to={"/contact"}>Contact</Link>
+                  <Link to={"/contact"}>CONTACT</Link>
                 </li>
               </ul>
             </div>
