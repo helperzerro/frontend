@@ -800,6 +800,10 @@ html {
   width: 66.666667%;
 }
 
+.w-10\/12{
+  width: 83.333333%;
+}
+
 .max-w-sm{
   max-width: 24rem;
 }
