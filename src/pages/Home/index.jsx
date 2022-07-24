@@ -14,18 +14,21 @@ import {
 export default function Homez() {
   return (
     <>
-      <div className="lg:hidden">
-        <Header />
+      <div className="relative">
+        <div className="xl:w-8/12 top-0 left-0 right-0 mx-auto absolute">
+          <div className="lg:hidden">
+            <Header />
+          </div>
+          <HeaderNav />
+        </div>
       </div>
-      <div className="w-9/12 mx-auto">
-        <HeaderNav />
-      </div>
+
       <div className="flex flex-wrap">
         <FlipBook />
         <ImageTopdf />
       </div>
-      <div className="w-9/12 mx-auto">
-        <h2 className="bg-red-200 text-center text-4xl font-extrabold p-6 mb-4">
+      <div className="w-8/12 mx-auto">
+        <h2 className="text-center text-3xl font-bold p-6 mb-4 md:text-5xl text-tema_6">
           OUR PRODUCTS
         </h2>
         <ListProduct />
@@ -33,9 +36,7 @@ export default function Homez() {
       <ScrollToTop />
       <WhatsApp />
       <Footer />
-      <div className="w-8/12 mx-auto xl:w-6/12">
-        <FooterContact />
-      </div>
+      <FooterContact />
     </>
   );
 }

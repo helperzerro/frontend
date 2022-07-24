@@ -5,25 +5,25 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-6 px-8">
+    <div className="flex items-center font-Raleway bg-white justify-between py-6 px-8">
       <nav>
         <section className="MOBILE-MENU flex xl:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2"
+            className="HAMBURGER-ICON space-y-2 group"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-black group-hover:bg-red-400"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-black group-hover:bg-red-400"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-black group-hover:bg-red-400"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 left-0 mt-5 ml-6 p-1 rounded-full hover:bg-amber-50"
+              className="absolute top-0 left-0 mt-5 ml-6 p-1 rounded-full"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-10 w-10 animate-pulse text-amber-600"
+                className="h-10 w-10 animate-pulse text-black hover:text-red-400"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -37,17 +37,14 @@ export default function Header() {
             </div>
 
             <div className="ml-16 mt-16">
-              <ul className="min-h-[250px]">
-                <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
+              <ul className="">
+                <li className="my-8 text-2xl font-semibold hover:text-red-400">
                   <a href="/">Home</a>
                 </li>
-                <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
-                  <Link to={"/menu"}>Menu</Link>
-                </li>
-                <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
+                <li className="my-8 text-2xl font-semibold hover:text-red-400">
                   <Link to={"/about"}>About</Link>
                 </li>
-                <li className="my-8 text-2xl text-dark font-semibold hover:text-amber-800">
+                <li className="my-8 text-2xl font-semibold hover:text-red-400">
                   <Link to={"/contact"}>Contact</Link>
                 </li>
               </ul>
@@ -67,8 +64,8 @@ export default function Header() {
       .showMenuNav {
         display: block;
         position: absolute;
-        width:300px;
-        height: 100vh;
+        width:250px;
+        height: 300px;
         top: 0;
         left: 0;
         animation-name:come;
@@ -80,9 +77,11 @@ export default function Header() {
       }
 
       @keyframes come{
-        from{opacity:0;}
+        from{opacity:0;
+        transform:translateX(-50px)}
         to{opacity:1;}
       }
+      
     `}</style>
     </div>
   );

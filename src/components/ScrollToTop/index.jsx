@@ -26,10 +26,10 @@ const App = () => {
     <>
       {showButton && (
         <IoIosArrowUp
-          size={50}
+          size={20}
           color="white"
           onClick={scrollToTop}
-          className="rounded-full h-16 w-16 bg-red-400 fixed bottom-28 right-6 pb-1"
+          className="rounded-lg h-12 w-12 bg-slate-800 fixed bottom-28 right-6"
         />
       )}
     </>

@@ -5,10 +5,10 @@ import { logo } from "../../assets";
 
 export default function FooterContact() {
   return (
-    <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
-      <div className="mx-6 py-10 text-center md:text-left">
+    <footer className="text-center lg:text-left bg-tema_3 text-white">
+      <div className="py-10 text-center md:text-left  w-9/12 mx-auto">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="bg-blue-200">
+          <div className="">
             <h6
               className="
             mb-4
@@ -26,33 +26,30 @@ export default function FooterContact() {
             </p>
           </div>
 
-          <div className="flex justify-around md:flex-col md:justify-start md:items-center font-bold text-xl m-4 bg-red-100">
+          <div className="flex justify-around md:flex-col md:justify-start md:items-center font-bold text-xl m-4">
             <p className="mb-4">
-              <a href="/" className="text-gray-600 hover:text-gray-800">
-                Home
+              <a href="/" className="hover:text-red-400">
+                HOME
               </a>
             </p>
             <p className="mb-4">
-              <Link to={"/about"} className="text-gray-600 hover:text-gray-800">
-                About
+              <Link to={"/about"} className="hover:text-red-400">
+                ABOUT
               </Link>
             </p>
             <p className="mb-4">
-              <Link
-                to={"/contact"}
-                className="text-gray-600 hover:text-gray-800"
-              >
-                Contact
+              <Link to={"/contact"} className="hover:text-red-400">
+                CONTACT
               </Link>
             </p>
           </div>
 
-          <div className="bg-green-200">
-            <h6 className="text-2xl font-semibold mb-4 flex justify-center">
+          <div className="">
+            <h6 className="text-2xl font-semibold mb-4 flex justify-center -translate-x-2 md:translate-x-4">
               Follow Us
             </h6>
             <div className="flex justify-center">
-              <a href="#!" className="mr-6 text-gray-600">
+              <a href="#!" className="mr-6 ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -69,7 +66,7 @@ export default function FooterContact() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-6 text-gray-600">
+              <a href="#!" className="mr-6 ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -86,7 +83,7 @@ export default function FooterContact() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-6 text-gray-600">
+              <a href="#!" className="mr-6 ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -103,7 +100,7 @@ export default function FooterContact() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-6 text-gray-600">
+              <a href="#!" className="mr-6 ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -120,7 +117,7 @@ export default function FooterContact() {
                   ></path>
                 </svg>
               </a>
-              <a href="#!" className="mr-6 text-gray-600">
+              <a href="#!" className="mr-6 ">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -142,10 +139,10 @@ export default function FooterContact() {
         </div>
       </div>
 
-      <div className="text-center p-6 bg-gray-200">
+      <div className="text-center p-6 bg-tema_4 text-lg">
         <span>© 2022 </span>
         <a
-          className="text-gray-600 font-semibold"
+          className="hover:text-red-400 font-semibold"
           href="https://tailwind-elements.com/"
         >
           Aice.com
