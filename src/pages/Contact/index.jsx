@@ -20,7 +20,7 @@ export default function Contact() {
           <HeaderNav />
         </div>
 
-        <div className="flex justify-center font-extrabold text-6xl bg-red-200 ">
+        <div className="flex justify-center font-extrabold text-6xl bg-red-200 font-Raleway">
           <img src={bg} className="w-full h-96" alt="bg" />
           <div className="flex flex-wrap absolute w-2/4 justify-center items-center text-white top-0 bottom-0 my-10 translate-y-10 xl:translate-y-4">
             <span className="text-center leading-normal">HUBUNGI KAMI</span>
@@ -43,7 +43,7 @@ export default function Contact() {
         <ContentContext />
 
         <ReactWhatsapp number="62-813-8042-6117" message="Hallo Aice Ice Cream">
-          <div className="fixed bottom-14 right-6 w-72 md:w-96 cursor-pointer bg-greenz rounded-full flex justify-center items-center p-2">
+          <div className="fixed bottom-14 right-6 w-72 md:w-96 cursor-pointer bg-greenz rounded-full flex justify-center items-center p-2 font-Raleway">
             <p className="text-white mr-4 text-sm md:text-xl">
               Halo, ada yang bisa kami bantu?
             </p>

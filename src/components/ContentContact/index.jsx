@@ -3,7 +3,7 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 
 export default function ContentContext() {
   return (
-    <div>
+    <div className="font-Raleway">
       <div className="flex flex-wrap p-3 mb-12 justify-center items-center md:justify-between md:flex-nowrap">
         <div className="text-center py-4 md:w-10/12">
           <FaMapMarkedAlt

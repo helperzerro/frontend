@@ -18,17 +18,17 @@ export default function FlipBook() {
 
         <HTMLFlipBook
           ref={book}
-          width={360}
-          height={600}
+          width={240}
+          height={500}
           mobileScrollSupport={true}
           flippingTime={500}
           size="stretch"
-          minWidth={360}
-          minHeight={600}
+          minWidth={240}
+          minHeight={500}
           maxWidth={500}
-          maxHeight={707}
+          maxHeight={600}
           drawShadow={false}
-          className="w-1/2 translate-y-16"
+          className="w-1/2 translate-y-40"
         >
           <div className="demoPage">
             <img className="img-cover" src={Image1} alt="Image1" />

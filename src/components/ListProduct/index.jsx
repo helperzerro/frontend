@@ -3,7 +3,7 @@ import { Image1, Image2, Image3, Image4 } from "../../assets";
 
 export default function ListProduct() {
   return (
-    <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="font-Raleway grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-sm">
           <img className="rounded-t-lg" src={Image1} alt="Imagex" />

@@ -19,9 +19,9 @@ module.exports = {
       height: {
         100: "100vh",
       },
-      fontFamily: {
-        Raleway: ["Raleway", "sans-serif"],
-      },
+    },
+    fontFamily: {
+      Raleway: ["Raleway", "sans-serif"],
     },
   },
   plugins: [],
