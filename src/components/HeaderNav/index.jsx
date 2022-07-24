@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function HeaderNav() {
   return (
-    <div className="hidden bg-white justify-between items-center lg:flex lg:text-white lg:bg-transparent font-Raleway">
+    <div className="hidden bg-white justify-between items-center lg:flex lg:text-white lg:bg-transparent">
       <a href="/" className="ml-12">
         <img
           src="https://static-cse.canva.com/_next/static/assets/logo.2000x641.8144e427e90af42af7ab852ea2c24793.png"

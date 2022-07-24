@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutContent() {
   return (
-    <div className="font-Raleway">
+    <div>
       <div className="flex flex-wrap p-3 mb-20 justify-center items-center md:justify-between md:flex-nowrap">
         <div className="py-4 md:w-10/12">
           <h3 className="font-bold text-2xl m-4 w-9/12 border-b-4 border-tema_6">

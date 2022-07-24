@@ -5,7 +5,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center font-Raleway bg-white justify-between py-6 px-8">
+    <div className="flex items-center bg-white justify-between py-6 px-8">
       <nav>
         <section className="MOBILE-MENU flex xl:hidden">
           <div

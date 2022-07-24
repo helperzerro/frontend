@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <div className="text-center bg-tema_2 p-8 font-Raleway">
+    <div className="text-center bg-tema_2 p-8">
       <p className="text-lg mb-2">Whatsapp Customer Care</p>
       <div className="flex justify-center items-center">
         {/* Logo */}

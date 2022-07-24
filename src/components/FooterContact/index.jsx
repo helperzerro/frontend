@@ -6,7 +6,7 @@ import { logo } from "../../assets";
 
 export default function FooterContact() {
   return (
-    <footer className="text-center lg:text-left bg-tema_3 text-white font-Raleway">
+    <footer className="text-center lg:text-left bg-tema_3 text-white">
       <div className="py-10 text-center md:text-left  w-9/12 mx-auto">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="">
