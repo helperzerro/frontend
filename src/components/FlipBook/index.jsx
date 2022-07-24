@@ -18,7 +18,7 @@ export default function FlipBook() {
 
         <HTMLFlipBook
           ref={book}
-          width={300}
+          width={310}
           height={400}
           mobileScrollSupport={true}
           flippingTime={500}

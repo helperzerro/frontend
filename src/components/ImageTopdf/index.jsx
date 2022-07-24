@@ -16,7 +16,7 @@ export default class ImageTopdf extends Component {
   };
   render() {
     return (
-      <div className="mx-auto -translate-y-28 font-Raleway">
+      <div className="mx-auto -translate-y-20 font-Raleway">
         <button
           onClick={this.pdfGenerate}
           className="font-bold py-2 px-4 rounded inline-flex items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white"
