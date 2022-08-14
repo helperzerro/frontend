@@ -9,3 +9,7 @@
     font-family: Raleway, system-ui, sans-serif;
   }
 }
+
+body {
+  @apply bg-black;
+}
